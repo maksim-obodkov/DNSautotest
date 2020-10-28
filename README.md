@@ -15,6 +15,6 @@ pip install selenium
 
 Запуска осуществляется из папки main командой -
 
-python 
+python steps.py
 
 Само тестирование происходит в хроме с помощью chromedriver(файл в проекте).
