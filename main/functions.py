@@ -36,7 +36,7 @@ class DnsElements:
     def link_check(self, link):
         assert link == self.driver.current_url, f'Мы не перешли на "{link}"'
 
-    # выбор нужного атрибута из ссылки на текущую страницу
+    # сравнение текущей ссылки и ссылки, на которую нужно было перейти
     def segment_link(self, string):
         link = self.driver.current_url
         link = link.split('/')

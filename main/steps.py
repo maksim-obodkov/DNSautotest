@@ -1,4 +1,4 @@
-from DNSautotest.main.functions import DnsElements
+from functions import DnsElements
 
 page_request = DnsElements()
 
