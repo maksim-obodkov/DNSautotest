@@ -17,3 +17,6 @@ pip install selenium
 python steps.py
 
 Само тестирование происходит в хроме с помощью chromedriver(файл в проекте).
+
+
+## ChromeDriver 86.0.4240.22 
