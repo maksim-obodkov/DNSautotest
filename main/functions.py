@@ -44,7 +44,7 @@ class DnsElements:
 
     # поиск всплывающей корзины
     def visible_cart(self, cart):
-        return WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(cart),
+        return WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(cart),
                                                     message=f'Поиск по элементу "{cart}" не дал результатов')
 
     # сравнение количества товаров в корзине
