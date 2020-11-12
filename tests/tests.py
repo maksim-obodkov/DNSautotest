@@ -1,4 +1,5 @@
 import pytest
+from src.conftest import browser
 from src.index_page import IndexPage
 from src.sales_page import SalesPage
 from src.product_page import ProductPage
