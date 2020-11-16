@@ -11,6 +11,7 @@
 Для запуска нужены:
 
 pip install pytest
+
 pip install selenium
 
 Запус к осуществляется из директории tests командой -
